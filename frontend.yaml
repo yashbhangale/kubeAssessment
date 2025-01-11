@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: task-frontend
-        image: task-manager-frontend:1.0
+        image: yashuop/task-manager-frontend
         ports:
         - containerPort: 80
 

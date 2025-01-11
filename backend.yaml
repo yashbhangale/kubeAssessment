@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: task-backend
-        image: task-manager-backend
+        image: yashuop/task-manager-backend
         ports:
         - containerPort: 5000
         env:
