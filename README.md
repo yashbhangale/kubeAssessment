@@ -22,13 +22,13 @@ tut videos
 
 1. https://www.youtube.com/watch?v=W04brGNgxN4&t=37451s 
 
-    watched till : 3hrs 12min
+    watched till : 3hrs 12min 👆
 
 2. - [x] https://www.youtube.com/watch?v=a-nWPre5QYI&t=1020s 
 
     k8s Architecture 👆
 
-Nagesh sir's Resources
+Nagesh sir's Resources 👇
 
 1. - [x] https://www.youtube.com/watch?v=fTuEKYpM3Q0&list=PL-yO32WqsOQgVcd1cSfbU6YsUwVBTTACr
 
