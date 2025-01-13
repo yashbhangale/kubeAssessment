@@ -9,12 +9,13 @@ app.use(bodyParser.json());
 
 // PostgreSQL connection
 const pool = new Pool({
-  user: 'postgres',        // Your PostgreSQL username
-  host: 'localhost',       // PostgreSQL host
-  database: 'taskdb',      // Database name
-  password: 'password', // Your PostgreSQL password
-  port: 5432,              // Default PostgreSQL port
+  user: process.env.POSTGRES_USER || 'postgres',
+  host: process.env.POSTGRES_HOST || 'localhost',
+  database: process.env.POSTGRES_DB || 'taskdb',
+  password: process.env.POSTGRES_PASSWORD || 'password',
+  port: 5432, // Default PostgreSQL port
 });
+
 
 // API Endpoints
 app.get('/tasks', async (req, res) => {
